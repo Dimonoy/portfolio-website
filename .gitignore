@@ -14,7 +14,7 @@ wheels/
 .helix/
 
 # Static files
-static/
+static/external
 
 # Databases
 db.sqlite3
