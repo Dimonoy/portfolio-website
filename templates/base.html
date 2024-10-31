@@ -8,14 +8,19 @@
   <meta name="description" content="Portfolio website">
   <meta name="keywords" content="Portfolio, Data Science, Software Development, GNU Linux">
   <meta name="author" content="Cho Hyunwoo">
-  <link rel="stylesheet" href="{% static 'css/bulma/bulma.min.css' %}">
-  <script async src="{% static 'js/htmx.min.js' %}"></script>
+  <link rel="stylesheet" href="{% static 'css/custom_bulma.css' %}">
+
+  <!-- Download from the official website and put to 'static/external/' -->
+  <script async src="{% static 'external/htmx.min.js' %}"></script>
 </head>
 
 <body>
 
-  {% block header %}
-  {% endblock %}
+  <header>
+    {% block header %}
+    {% include 'navbar.html' %}
+    {% endblock %}
+  </header>
 
   {% block content %}
   {% endblock %}
