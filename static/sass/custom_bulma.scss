@@ -1,3 +1,21 @@
 @use "../external/bulma/sass/base";
 @use "../external/bulma/sass/themes";
+
 @use "../external/bulma/sass/components/navbar";
+
+@use "../external/bulma/sass/grid/columns";
+
+@use "../external/bulma/sass/elements/button";
+@use "../external/bulma/sass/elements/title";
+@use "../external/bulma/sass/elements/image";
+
+@use "../external/bulma/sass/layout/section";
+@use "../external/bulma/sass/layout/container";
+
+@use "../external/bulma/sass/helpers/typography";
+@use "../external/bulma/sass/helpers/spacing";
+@use "../external/bulma/sass/helpers/flexbox";
+
+.is-flex {
+  display: flex;
+}

@@ -15,19 +15,18 @@
 </head>
 
 <body>
-
-  <header>
+  <div class="wrapper">
     {% block header %}
-    {% include 'navbar.html' %}
+    {% include 'header.html' %}
     {% endblock %}
-  </header>
 
-  {% block content %}
-  {% endblock %}
+    {% block content %}
+    {% endblock %}
 
-  {% block footer %}
-  {% endblock %}
+    {% block footer %}
+    {% endblock %}
 
+  </div>
 </body>
 
 </html>
