@@ -1,23 +1,14 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+# Dependencies
+node_modules/
 
-# Virtual environments
-.venv
+# Builds
+.next
+
+# Environments
 .env
+
+# Typescript
+next-env.d.ts
 
 # Helix editor
 .helix/
-
-# Static files
-static/external
-
-# Databases
-db.sqlite3
-
-# NPM
-node_modules/

@@ -1,27 +1,27 @@
 {
   "name": "portfolio-website",
   "version": "0.1.0",
-  "description": "The website showcases my ideas and projects related to **Software Development**, **Linux Administration**, and **Data Science**.",
+  "private": true,
   "scripts": {
-    "compilescss": "sass --style=compressed --watch static/sass/custom_bulma.scss static/css/custom_bulma.css"
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Dimonoy/portfolio-website.git"
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "15.1.3"
   },
-  "keywords": [
-    "portfolio",
-    "software development",
-    "linux administration",
-    "data science"
-  ],
-  "author": "Cho Hyunwoo",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Dimonoy/portfolio-website/issues"
-  },
-  "homepage": "https://github.com/Dimonoy/portfolio-website#readme",
   "devDependencies": {
-    "sass": "^1.80.3"
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.3",
+    "@eslint/eslintrc": "^3"
   }
 }
